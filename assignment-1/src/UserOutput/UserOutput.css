@@ -1,0 +1,10 @@
+.userOutput {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 15px rgba(black, 0.1);
+}

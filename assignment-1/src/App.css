@@ -1,0 +1,45 @@
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #e4eaff;
+  background-image: linear-gradient(45deg,#e4eaff, #fef8ff);
+}
+
+h1 {
+  font-size: 48px;
+	margin-top: 5px; margin-bottom: 0px;
+	text-align: center;
+  font-weight: normal;
+  color: #252629;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#articleList {
+  margin: auto;
+  display: inline-block;
+  width: 50%;
+}
+
+#task {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 35%;
+  color: #8860D0;
+}
+
+li::marker {
+  content: counter(list-item) "› "; 
+  color: #352158;
+}
+
+li {
+  padding-inline-start: 1ch;
+  padding-bottom: 1ch;
+}
+
+ul, ol {
+  max-width: 35ch;
+}
