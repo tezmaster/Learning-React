@@ -1,0 +1,37 @@
+.Person {
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0em 2em 2em #eee;
+    width: 200px;
+    text-align: center;
+}
+
+.Person img {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+.Person h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Person input {
+    font-size: 2em;
+    width: 180px;
+}
+
+.Person input.small {
+    font-size: 1em;
+    margin: 0 0 0.50em 0;
+}
+
+.Person h1:hover, .Person p:hover, .Person img:hover {
+    cursor: pointer;
+}
